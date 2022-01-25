@@ -1,0 +1,291 @@
+{
+  "unpublishedPage": {
+    "name": "Window",
+    "slug": "window",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1118,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 800,
+          "containerStyle": "none",
+          "snapRows": 129,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 23,
+          "minHeight": 810,
+          "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "widgetName": "Form1",
+              "backgroundColor": "white",
+              "rightColumn": 47,
+              "widgetId": "vx0uz6ud4x",
+              "topRow": 10,
+              "bottomRow": 74,
+              "parentRowSpace": 10,
+              "isVisible": true,
+              "type": "FORM_WIDGET",
+              "parentId": "0",
+              "isLoading": false,
+              "parentColumnSpace": 17.21875,
+              "leftColumn": 19,
+              "children": [
+                {
+                  "widgetName": "Canvas1",
+                  "rightColumn": 482.125,
+                  "detachFromLayout": true,
+                  "widgetId": "8f2dhrypfe",
+                  "containerStyle": "none",
+                  "topRow": 0,
+                  "bottomRow": 520,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "canExtend": false,
+                  "type": "CANVAS_WIDGET",
+                  "version": 1,
+                  "parentId": "vx0uz6ud4x",
+                  "minHeight": 520,
+                  "isLoading": false,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "widgetName": "Text1",
+                      "rightColumn": 26,
+                      "textAlign": "LEFT",
+                      "widgetId": "nme7ewj3ag",
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "type": "TEXT_WIDGET",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "8f2dhrypfe",
+                      "isLoading": false,
+                      "leftColumn": 2,
+                      "fontSize": "HEADING1",
+                      "text": "Form"
+                    },
+                    {
+                      "resetFormOnClick": true,
+                      "widgetName": "FormButton1",
+                      "rightColumn": 62.4,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "01pjo847b9",
+                      "buttonStyle": "PRIMARY_BUTTON",
+                      "topRow": 45,
+                      "bottomRow": 49,
+                      "isVisible": true,
+                      "type": "FORM_BUTTON_WIDGET",
+                      "version": 1,
+                      "parentId": "8f2dhrypfe",
+                      "isLoading": false,
+                      "disabledWhenInvalid": true,
+                      "leftColumn": 46.4,
+                      "text": "Submit"
+                    },
+                    {
+                      "resetFormOnClick": true,
+                      "widgetName": "FormButton2",
+                      "rightColumn": 46,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "6t2vamxbys",
+                      "buttonStyle": "SECONDARY_BUTTON",
+                      "topRow": 45,
+                      "bottomRow": 49,
+                      "isVisible": true,
+                      "type": "FORM_BUTTON_WIDGET",
+                      "version": 1,
+                      "parentId": "8f2dhrypfe",
+                      "isLoading": false,
+                      "disabledWhenInvalid": false,
+                      "leftColumn": 30,
+                      "text": "Reset"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "widgetNames": [
+          "Form1",
+          "Canvas1",
+          "FormButton2",
+          "Text1",
+          "FormButton1",
+          "MainContainer"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Window",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "publishedPage": {
+    "name": "Window",
+    "slug": "window",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1118,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 800,
+          "containerStyle": "none",
+          "snapRows": 129,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 23,
+          "minHeight": 810,
+          "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "widgetName": "Form1",
+              "backgroundColor": "white",
+              "rightColumn": 47,
+              "widgetId": "vx0uz6ud4x",
+              "topRow": 10,
+              "bottomRow": 74,
+              "parentRowSpace": 10,
+              "isVisible": true,
+              "type": "FORM_WIDGET",
+              "parentId": "0",
+              "isLoading": false,
+              "parentColumnSpace": 17.21875,
+              "leftColumn": 19,
+              "children": [
+                {
+                  "widgetName": "Canvas1",
+                  "rightColumn": 482.125,
+                  "detachFromLayout": true,
+                  "widgetId": "8f2dhrypfe",
+                  "containerStyle": "none",
+                  "topRow": 0,
+                  "bottomRow": 520,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "canExtend": false,
+                  "type": "CANVAS_WIDGET",
+                  "version": 1,
+                  "parentId": "vx0uz6ud4x",
+                  "minHeight": 520,
+                  "isLoading": false,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "widgetName": "Text1",
+                      "rightColumn": 26,
+                      "textAlign": "LEFT",
+                      "widgetId": "nme7ewj3ag",
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "type": "TEXT_WIDGET",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "8f2dhrypfe",
+                      "isLoading": false,
+                      "leftColumn": 2,
+                      "fontSize": "HEADING1",
+                      "text": "Form"
+                    },
+                    {
+                      "resetFormOnClick": true,
+                      "widgetName": "FormButton1",
+                      "rightColumn": 62.4,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "01pjo847b9",
+                      "buttonStyle": "PRIMARY_BUTTON",
+                      "topRow": 45,
+                      "bottomRow": 49,
+                      "isVisible": true,
+                      "type": "FORM_BUTTON_WIDGET",
+                      "version": 1,
+                      "parentId": "8f2dhrypfe",
+                      "isLoading": false,
+                      "disabledWhenInvalid": true,
+                      "leftColumn": 46.4,
+                      "text": "Submit"
+                    },
+                    {
+                      "resetFormOnClick": true,
+                      "widgetName": "FormButton2",
+                      "rightColumn": 46,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "6t2vamxbys",
+                      "buttonStyle": "SECONDARY_BUTTON",
+                      "topRow": 45,
+                      "bottomRow": 49,
+                      "isVisible": true,
+                      "type": "FORM_BUTTON_WIDGET",
+                      "version": 1,
+                      "parentId": "8f2dhrypfe",
+                      "isLoading": false,
+                      "disabledWhenInvalid": false,
+                      "leftColumn": 30,
+                      "text": "Reset"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "widgetNames": [
+          "Form1",
+          "Canvas1",
+          "FormButton2",
+          "Text1",
+          "FormButton1",
+          "MainContainer"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Window",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "policies": [],
+  "userPermissions": [
+    "read:pages",
+    "manage:pages"
+  ],
+  "gitSyncId": "60b79796e9f117114a698cc9_61c43395e89bc475f3cb75e6"
+}

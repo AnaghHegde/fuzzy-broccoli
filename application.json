@@ -1,0 +1,17 @@
+{
+  "name": "Open PRs",
+  "isPublic": false,
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#F5D1D1",
+  "icon": "shop",
+  "slug": "open-prs",
+  "publishedModeThemeId": "61d6d26687725863b5edef09",
+  "editModeThemeId": "61d6d26687725863b5edef09",
+  "createdAt": {
+    "seconds": 1622644630,
+    "nanos": 762000000
+  },
+  "deleted": false
+}
