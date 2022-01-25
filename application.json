@@ -7,6 +7,12 @@
   "color": "#F5D1D1",
   "icon": "shop",
   "slug": "open-prs",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
   "publishedModeThemeId": "61d6d26687725863b5edef09",
   "editModeThemeId": "61d6d26687725863b5edef09",
   "createdAt": {

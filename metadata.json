@@ -4,7 +4,44 @@
   "serverSchemaVersion": 1,
   "publishedDefaultPageName": "Home",
   "unpublishedDefaultPageName": "Home",
-  "actionCollectionList": [],
+  "actionCollectionList": [
+    {
+      "unpublishedCollection": {
+        "name": "mvoiesMockObject",
+        "pageId": "Page1",
+        "pluginId": "js-plugin",
+        "pluginType": "JS",
+        "actionIds": [],
+        "defaultToBranchedArchivedActionIdsMap": {},
+        "archivedActionIds": [],
+        "actions": [],
+        "archivedActions": [],
+        "body": "export default {\n    transformAPI: () => {\n       return  moviesMock.data.filter((movie) => {\n\t\t\t\t if (movie.vote_average > 8) {\n\t\t\t\t\t return movie;\n\t\t\t\t } \n\t\t\t })\n    }\n}",
+        "variables": []
+      },
+      "publishedCollection": {
+        "name": "mvoiesMockObject",
+        "pageId": "Page1",
+        "pluginId": "js-plugin",
+        "pluginType": "JS",
+        "actionIds": [],
+        "defaultToBranchedArchivedActionIdsMap": {},
+        "archivedActionIds": [],
+        "actions": [],
+        "archivedActions": [],
+        "body": "export default {\n    transformAPI: () => {\n       return  moviesMock.data.filter((movie) => {\n\t\t\t\t if (movie.vote_average > 8) {\n\t\t\t\t\t return movie;\n\t\t\t\t } \n\t\t\t })\n    }\n}",
+        "variables": []
+      },
+      "id": "Page1_mvoiesMockObject",
+      "deleted": false,
+      "userPermissions": [
+        "read:actions",
+        "execute:actions",
+        "manage:actions"
+      ],
+      "gitSyncId": "61effb7b9d6d6a6720c9495e_61effc179d6d6a6720c9496e"
+    }
+  ],
   "editModeTheme": {
     "name": "Classic",
     "isSystemTheme": true,
@@ -17,6 +54,14 @@
     "deleted": false,
     "policies": []
   },
-  "publishedLayoutmongoEscapedWidgets": {},
-  "unpublishedLayoutmongoEscapedWidgets": {}
+  "publishedLayoutmongoEscapedWidgets": {
+    "Page1": [
+      "Table2"
+    ]
+  },
+  "unpublishedLayoutmongoEscapedWidgets": {
+    "Page1": [
+      "Table2"
+    ]
+  }
 }
