@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "mvoiesMockObject",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n    transformAPI: () => {\n       return  moviesMock.data.filter((movie) => {\n\t\t\t\t if (movie.vote_average > 8) {\n\t\t\t\t\t return movie;\n\t\t\t\t } \n\t\t\t })\n    }\n}",
+    "variables": []
+  },
+  "id": "Page1_mvoiesMockObject",
+  "deleted": false,
+  "gitSyncId": "61effb7b9d6d6a6720c9495e_61effc179d6d6a6720c9496e"
+}

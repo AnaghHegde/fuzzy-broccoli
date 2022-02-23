@@ -1,5 +1,4 @@
 {
-  "name": "Open PRs",
   "isPublic": false,
   "viewMode": false,
   "appIsExample": false,
@@ -13,8 +12,6 @@
   "publishedAppLayout": {
     "type": "FLUID"
   },
-  "publishedModeThemeId": "61d6d26687725863b5edef09",
-  "editModeThemeId": "61d6d26687725863b5edef09",
   "createdAt": {
     "seconds": 1622644630,
     "nanos": 762000000
