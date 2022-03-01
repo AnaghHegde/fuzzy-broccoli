@@ -5,7 +5,6 @@
   "unreadCommentThreads": 0,
   "color": "#F5D1D1",
   "icon": "shop",
-  "slug": "open-prs",
   "unpublishedAppLayout": {
     "type": "FLUID"
   },

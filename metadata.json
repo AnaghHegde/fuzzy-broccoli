@@ -7,14 +7,12 @@
   "editModeTheme": {
     "name": "Classic",
     "isSystemTheme": true,
-    "deleted": false,
-    "policies": []
+    "deleted": false
   },
   "publishedTheme": {
     "name": "Classic",
     "isSystemTheme": true,
-    "deleted": false,
-    "policies": []
+    "deleted": false
   },
   "publishedLayoutmongoEscapedWidgets": {
     "Page1": [
